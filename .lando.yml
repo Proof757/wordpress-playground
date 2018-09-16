@@ -1,0 +1,10 @@
+name: wordpress-playground
+recipe: lemp
+config:
+  webroot: web
+	database: mariadb
+	xdebug: true
+services:
+  cache:
+    type: redis
+    persist: true
