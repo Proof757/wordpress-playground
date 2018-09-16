@@ -2,7 +2,7 @@ commands:
 - name: php
   description: While designed for web development, the PHP scripting language also provides general-purpose use.
   provides:
-  - php
+  	- php
   image: gilbitron/php7.0-mysql
   tag: latest
   shell: sh
@@ -10,7 +10,7 @@ commands:
 - name: composer
   description: Composer is a dependency manager written in and for PHP.
   provides:
-  - composer
+  	- composer
   image: composer
   tag: latest
   shell: sh
