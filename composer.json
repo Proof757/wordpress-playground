@@ -79,13 +79,13 @@
                 "wpackagist-plugin/wordfence",
                 "wpackagist-plugin/nginx-helper",
                 "wpackagist-plugin/sendgrid-email-delivery-simplified",
+								"wpackagist-plugin/timber-library",
                 "humanmade/s3-uploads"
             ],
             "web/app/plugins/{$name}/": [
                 "wpackagist-plugin/all-in-one-seo-pack",
                 "wpackagist-plugin/debug-bar",
-								"wpackagist-plugin/one-time-login",
-								"wpackagist-plugin/timber-library"
+								"wpackagist-plugin/one-time-login"
             ],
             "web/app/themes/{$name}/": [
                 "type:wordpress-theme"
